@@ -1,0 +1,3 @@
+# Passive placeholder for future hyperparameter optimization settings.
+search_space: {}
+objective: rmse
