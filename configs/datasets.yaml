@@ -1,0 +1,8 @@
+# Passive placeholder for future dataset registry settings.
+datasets:
+  swiss:
+    source: pysteps
+    root: mchrzc12
+    start: "201609080000"
+    end: "201609081200"
+    timestep_minutes: 5

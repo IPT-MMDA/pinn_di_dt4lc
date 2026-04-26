@@ -1,0 +1,27 @@
+linda:
+  n_input: 3
+  n_forecast: 6
+  n_ens_members: 10
+  velocity_perturbation:
+    p1: 1.0
+    p2: 0.1
+    p3: 0.01
+    p4: 0.1
+    p5: 0.01
+  kmperpixel: 1.0
+  timestep_minutes: 5
+
+pinn:
+  n_input: 3
+  n_forecast: 3
+  epochs: 10
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  hidden_layers: 256
+  num_layers: 5
+  initial_sigma: 0.0
+  initial_survival: 0.8
+  initial_growth: 0.1
+
+data:
+  use_synthetic_data: true
